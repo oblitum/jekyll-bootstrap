@@ -24,7 +24,7 @@ production_url : http://oblita.com
 #
 JB :
   version : 0.3.0
-  BASE_PATH : http://oblita.com/jekyll-fun
+  BASE_PATH : http://oblita.com/jekyll-bootstrap
   ASSET_PATH : false
 
   # These paths are to the main pages Jekyll-Bootstrap ships with.
