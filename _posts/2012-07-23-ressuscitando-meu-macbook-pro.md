@@ -59,5 +59,6 @@ Eu também gravei um trecho da limpeza geral:
         src="http://www.youtube.com/embed/pmrf5Wla85k?rel=0&vq=large" frameborder="0" allowfullscreen>
 </iframe>
 </div>
+<p></p>
 
 Uma semana depois, esse post foi escrito neste mesmo Mac... ileso =)
