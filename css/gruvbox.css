@@ -5,8 +5,6 @@ pre
     -webkit-font-smoothing: antialiased;
     color: #ebdbb2;
     text-shadow: none;
-    background: #282828;
-    background-color: rgba(0, 0, 0, 0.2);
 }
 
 pre .Normal             { color: #ebdbb2    ; background-color: transparent;                             }
