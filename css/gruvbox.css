@@ -4,9 +4,12 @@ pre
     font-size: 10pt;
     -webkit-font-smoothing: antialiased;
     color: #ebdbb2;
+    text-shadow: none;
+    background: #282828;
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
-pre .Normal             { color: #ebdbb2    ; background-color: #282828;                                 }
+pre .Normal             { color: #ebdbb2    ; background-color: transparent;                             }
 pre .CursorLine         { color: transparent; background-color: #3c3836;                                 }
 pre .CursorColumn       { color: transparent; background-color: #3c3836;                                 }
 pre .MatchParen         { color: transparent; background-color: #665c54    ; font-weight: bold;          }
