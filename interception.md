@@ -46,29 +46,7 @@ Third, you must include interception.h in your applications.
 
 The following sample shows how to intercept the x key and turn it into y:
 
-<style type="text/css">
-<!--
-pre .op_lv14 { color: #cc241d; }
-pre .Repeat { color: #fb4934; }
-pre .op_lv16 { color: #458588; }
-pre .Include { color: #8ec07c; }
-pre .lv14c { color: #cc241d; }
-pre .lv15c { color: #b16286; }
-pre .lv16c { color: #458588; }
-pre .op_lv15 { color: #b16286; }
-pre .Conditional { color: #fb4934; }
-pre .op_lv0 { color: #d65d0e; }
-pre .Statement { color: #fb4934; }
-pre .Type { color: #fabd2f; }
-pre .String { color: #b8bb26; }
-pre .Number { color: #d3869b; }
-pre .Structure { color: #8ec07c; }
-pre .lv13c { color: #d65d0e; }
-pre .op_lv13 { color: #d65d0e; }
--->
-</style>
-
-<pre style="font-family: 'consolas', 'Inconsolata', 'Anonymous Pro', 'Ubuntu Mono', monospace; font-size: 10pt; -webkit-font-smoothing: antialiased; color: #ebdbb2;">
+<pre>
 <span class="Include">#include </span><span class="String">&lt;interception.h&gt;</span>
 <span class="Include">#include </span><span class="String">&quot;utils.h&quot;</span>
 
@@ -126,30 +104,7 @@ There are some concepts you need to know to use Interception well:
 
 The following sample shows how to invert the vertical mouse axis:
 
-<style type="text/css">
-<!--
-pre .op_lv14 { color: #cc241d; }
-pre .Repeat { color: #fb4934; }
-pre .op_lv16 { color: #458588; }
-pre .lv12c { color: #458588; }
-pre .Include { color: #8ec07c; }
-pre .lv14c { color: #cc241d; }
-pre .lv15c { color: #b16286; }
-pre .lv16c { color: #458588; }
-pre .op_lv15 { color: #b16286; }
-pre .Conditional { color: #fb4934; }
-pre .op_lv0 { color: #d65d0e; }
-pre .Statement { color: #fb4934; }
-pre .Type { color: #fabd2f; }
-pre .String { color: #b8bb26; }
-pre .Number { color: #d3869b; }
-pre .Structure { color: #8ec07c; }
-pre .lv13c { color: #d65d0e; }
-pre .op_lv12 { color: #458588; }
-pre .op_lv13 { color: #d65d0e; }
--->
-</style>
-<pre style="font-family: 'consolas', 'Inconsolata', 'Anonymous Pro', 'Ubuntu Mono', monospace; font-size: 10pt; -webkit-font-smoothing: antialiased; color: #ebdbb2;">
+<pre>
 <span class="Include">#include </span><span class="String">&lt;interception.h&gt;</span>
 <span class="Include">#include </span><span class="String">&quot;utils.h&quot;</span>
 
@@ -200,31 +155,7 @@ pre .op_lv13 { color: #d65d0e; }
 
 The following sample shows how to intercept and block the CTRL-ALT-DEL sequence:
 
-<style type="text/css">
-<!--
-pre .op_lv14 { color: #cc241d; }
-pre .op_lv15 { color: #b16286; }
-pre .op_lv16 { color: #458588; }
-pre .Include { color: #8ec07c; }
-pre .lv14c { color: #cc241d; }
-pre .lv15c { color: #b16286; }
-pre .lv16c { color: #458588; }
-pre .Repeat { color: #fb4934; }
-pre .Conditional { color: #fb4934; }
-pre .op_lv0 { color: #d65d0e; }
-pre .Statement { color: #fb4934; }
-pre .Type { color: #fabd2f; }
-pre .String { color: #b8bb26; }
-pre .Number { color: #d3869b; }
-pre .StorageClass { color: #fe8019; }
-pre .Structure { color: #8ec07c; }
-pre .lv13c { color: #d65d0e; }
-pre .Normal { color: #ebdbb2; padding-bottom: 1px; }
-pre .op_lv13 { color: #d65d0e; }
--->
-</style>
-
-<pre style="font-family: 'consolas', 'Inconsolata', 'Anonymous Pro', 'Ubuntu Mono', monospace; font-size: 10pt; -webkit-font-smoothing: antialiased; color: #ebdbb2;">
+<pre>
 <span class="Include">#include </span><span class="String">&lt;interception.h&gt;</span>
 <span class="Include">#include </span><span class="String">&quot;utils.h&quot;</span>
 
@@ -299,29 +230,7 @@ InterceptionKeyStroke del_down  <span class="op_lv0">=</span> <span class="lv16c
 
 The following sample identify multiple mice through left clicking (worked well for my magic mouse and touch pad):
 
-<style type="text/css">
-<!--
-pre .op_lv14 { color: #cc241d; }
-pre .Repeat { color: #fb4934; }
-pre .op_lv16 { color: #458588; }
-pre .Include { color: #8ec07c; }
-pre .lv14c { color: #cc241d; }
-pre .lv15c { color: #b16286; }
-pre .lv16c { color: #458588; }
-pre .op_lv15 { color: #b16286; }
-pre .Conditional { color: #fb4934; }
-pre .op_lv0 { color: #d65d0e; }
-pre .Statement { color: #fb4934; }
-pre .Type { color: #fabd2f; }
-pre .String { color: #b8bb26; }
-pre .Number { color: #d3869b; }
-pre .Structure { color: #8ec07c; }
-pre .lv13c { color: #d65d0e; }
-pre .op_lv13 { color: #d65d0e; }
--->
-</style>
-
-<pre style="font-family: 'consolas', 'Inconsolata', 'Anonymous Pro', 'Ubuntu Mono', monospace; font-size: 10pt; -webkit-font-smoothing: antialiased; color: #ebdbb2;">
+<pre>
 <span class="Include">#include </span><span class="String">&lt;interception.h&gt;</span>
 <span class="Include">#include </span><span class="String">&quot;utils.h&quot;</span>
 
@@ -377,30 +286,7 @@ As you can see interception\_is\_keyboard and interception\_is\_mouse are conven
 The following sample allows one to query for a device’s "hardware id", which may help on disambiguation of device input.  
 Just remember this hardware id’s are not required to be unique, but mostly will when you have at last two different device models.
 
-<style type="text/css">
-<!--
-pre .op_lv14 { color: #cc241d; }
-pre .Repeat { color: #fb4934; }
-pre .op_lv16 { color: #458588; }
-pre .Include { color: #8ec07c; }
-pre .lv14c { color: #cc241d; }
-pre .lv15c { color: #b16286; }
-pre .lv16c { color: #458588; }
-pre .op_lv15 { color: #b16286; }
-pre .Conditional { color: #fb4934; }
-pre .op_lv0 { color: #d65d0e; }
-pre .Statement { color: #fb4934; }
-pre .Type { color: #fabd2f; }
-pre .String { color: #b8bb26; }
-pre .Number { color: #d3869b; }
-pre .Structure { color: #8ec07c; }
-pre .lv13c { color: #d65d0e; }
-pre .Normal { color: #ebdbb2; padding-bottom: 1px; }
-pre .op_lv13 { color: #d65d0e; }
--->
-</style>
-
-<pre style="font-family: 'consolas', 'Inconsolata', 'Anonymous Pro', 'Ubuntu Mono', monospace; font-size: 10pt; -webkit-font-smoothing: antialiased; color: #ebdbb2;">
+<pre>
 <span class="Include">#include </span><span class="String">&lt;interception.h&gt;</span>
 <span class="Include">#include </span><span class="String">&quot;utils.h&quot;</span>
 
