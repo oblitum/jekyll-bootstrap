@@ -3,10 +3,10 @@
 input[type="file"],
 select,
 textarea, .progress, code, pre {
-  -moz-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.6) 0 1px 3px 0px inset;
-  -webkit-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.6) 0 1px 3px 0px inset;
-  -o-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.6) 0 1px 3px 0px inset;
-  box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.6) 0 1px 3px 0px inset;
+  -moz-box-shadow: rgba(225, 225, 225, 0.1) 0 1px 0, rgba(15, 15, 15, 0.8) 0 1px 3px 0px inset;
+  -webkit-box-shadow: rgba(225, 225, 225, 0.1) 0 1px 0, rgba(15, 15, 15, 0.8) 0 1px 3px 0px inset;
+  -o-box-shadow: rgba(225, 225, 225, 0.1) 0 1px 0, rgba(15, 15, 15, 0.8) 0 1px 3px 0px inset;
+  box-shadow: rgba(225, 225, 225, 0.1) 0 1px 0, rgba(15, 15, 15, 0.8) 0 1px 3px 0px inset;
   background: #282828;
   background-color: rgba(0, 0, 0, 0.2);
 }
