@@ -12,7 +12,7 @@ A programming interface for intercepting input device communication.
 ###What can I do with that?
 
 Currently, with Interception you are able to intercept and transform input data from keyboard and mouse.
-Support is still Windows only (from Windows 2000 to Windows 7).
+Support is still Windows only (from Windows XP to Windows 8.1).
 
 ###I can use Windows hooks for that, so, what’s up?
 
@@ -35,12 +35,11 @@ Yes, indeed. The Interception core is built upon properly signed drivers, so tha
 
 ###Ok then, let’s get to work.
 
-First, you must download the Interception core installation tool: [install-interception](https://github.com/downloads/oblitum/Interception/install-interception.exe).
-This tool must be run from an administrator command line (you must run cmd as administrator). Just run it without arguments to receive instructions.
+First, you must download and extract the [Interception assets](https://github.com/oblitum/Interception/releases/latest)
+and then run `install-interception`.  This tool must be run from an administrator command line (you must run cmd as administrator).
+Just run it without arguments to receive instructions.
 
-Second, you must link against the Interception library, which is provided [here](https://github.com/downloads/oblitum/Interception/Interception.zip)
-as a convenient package, or you may build it from [sources](https://github.com/oblitum/Interception). Static and dynamic libraries are provided and
-the x86 version do not depend on the VC10 runtime.
+Second, you must link against the Interception library, which is provided in the assets, or you may build it from [sources](https://github.com/oblitum/Interception).
 
 Third, you must include interception.h in your applications.
 
@@ -101,6 +100,8 @@ There are some concepts you need to know to use Interception well:
     devices that are not to be filtered through this filter. 
     So the interception_set_filter works by scanning all possible devices, and using the provided predicate as the
     criteria to know for which devices the provided filter should be applied.
+  - Precedence  
+    There's an old explanation [here](https://sites.google.com/a/oblita.com/yorick/hooking-part1).
 
 The following sample shows how to invert the vertical mouse axis:
 
