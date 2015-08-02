@@ -12,7 +12,7 @@ A programming interface for intercepting input device communication.
 ###What can I do with that?
 
 Currently, with Interception you are able to intercept and transform input data from keyboard and mouse.
-Support is still Windows only (from Windows XP to Windows 8.1).
+Support is still Windows only (from Windows XP to Windows 10).
 
 ###I can use Windows hooks for that, so, what’s up?
 
